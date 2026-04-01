@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react'
 
 const NavBar = () => {
    /*keeping track the state of the navbar for when we scroll and it's no longer visible due to the background color of the sections when we scroll down
-I will apply like a background so it is visible on top of these elements when i scroll doen 
+I will apply like a background so it is visible on top of these elements when i scroll down
 */
    const [scrolled, setScrolled] = useState(false);
    useEffect(() => {
@@ -37,7 +37,6 @@ I will apply like a background so it is visible on top of these elements when i 
                      </li>
                   ))}
                </ul>
-
             </nav>
 
             <a href="#contact" className="contact-btn group">

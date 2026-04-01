@@ -14,7 +14,7 @@ const Button = ({ className, id, text }) => {
                const offset = window.innerHeight * 0.15;
 
                /* how far down we need to scroll */
-               const top = target.getBoundingClientRect().top + window.scrollY - offset;
+               const top = target.getBoundingClientRect().top + window.scrollY - offset; /*we want to leave some space on the elements for them to appear nicely on the screen */
                window.scrollTo({
                   top,
                   behavior: "smooth",

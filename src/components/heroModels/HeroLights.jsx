@@ -31,7 +31,7 @@ const HeroLights = () => {
             color="#9d4edd"
          />
 
-         {/*this is a special light that provides a soft light */}
+         {/*this is a special light that provides a soft and moody light */}
          <primitive
             object={new THREE.RectAreaLight("#A259FF", 8, 3, 2)}
             position={[1, 3, 4]}
