@@ -239,7 +239,7 @@ section {
 	}
 
 	.timeline-wrapper {
-		@apply absolute top-0 xl:left-[35.5vw] md:left-10 left-5 h-full flex justify-center;
+		@apply absolute top-0 xl:left-[35.9vw] md:left-10 left-5 h-full flex justify-center;
 	}
 
 	.timeline {
@@ -437,7 +437,8 @@ section {
 	border: 2px solid transparent;
 	background: var(--gradient);
 	background-attachment: fixed;
-	mask: linear-gradient(#0000, #0000),
+	mask:
+		linear-gradient(#0000, #0000),
 		conic-gradient(
 			from calc((var(--start) - 15) * 1deg),
 			#ffffff1f 0deg,

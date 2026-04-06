@@ -2,11 +2,11 @@ import React from 'react'
 import { useRef } from 'react'
 
 const GlowCard = ({ card, children, index }) => {
-   /*I want to make the glow around the card follow the mouse cursor - this will be knowing the position of the cursor*/
+   //I want to make the glow around the card follow the mouse cursor - this will be knowing the position of the cursor
    const cardRefs = useRef([])
 
 
-   {/* this is an higher order function --what is an higher order function? first we need to figure out which card is being hovered over and then get access to the event of the actual mouse so that move event and once we have that we can figure out which card we on */ }
+   // this is an higher order function --what is an higher order function? first we need to figure out which card is being hovered over and then get access to the event of the actual mouse so that move event and once we have that we can figure out which card we on 
    const handleMouseMove = (index) => (e) => {
       const card = cardRefs.current[index]
       if (!card) return;
@@ -29,7 +29,7 @@ const GlowCard = ({ card, children, index }) => {
 
    return (
       <div
-         /*depending on the element, we are on, we will only move for that specific card*/
+         //depending on the element, we are on, we will only move for that specific card
          ref={(el) => (cardRefs.current[index] = el)}
          onMouseMove={handleMouseMove(index)}
          className="card card-border timeline-card rounded-xl p-10"
@@ -46,9 +46,7 @@ const GlowCard = ({ card, children, index }) => {
             ))}
          </div>
          <div className="mb-5">
-            <p
-               className="text-white-50" text-lg
-            >
+            <p className="text-white-50 text-lg">
                {card.review}
             </p>
          </div>
@@ -59,6 +57,5 @@ const GlowCard = ({ card, children, index }) => {
 
 export default GlowCard
 
-{/*note:
-    when preparing for interviews, ask ai to give you a list of questions to ask the candidate according to the project you built
-    */ }
+//note:
+// when preparing for interviews, ask ai to give you a list of questions to ask the candidate according to the project you built
