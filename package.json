@@ -4,6 +4,7 @@
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
+		"generate:nextjs-logo": "node scripts/generate-nextjs-logo-glb.mjs",
 		"dev": "vite",
 		"build": "vite build",
 		"lint": "eslint .",

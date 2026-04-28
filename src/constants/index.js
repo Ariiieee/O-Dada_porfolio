@@ -167,77 +167,55 @@ const techStackImgs = [
       name: "Project Manager",
       imgPath: "/images/logos/git.svg",
    },
+   {
+      name: "Frontend Developer",
+      imgPath: "/images/logos/next-js.svg",
+   },
+
 ];
 
 const techStackIcons = [
    {
-      name: "Frontend Developer",
+      name: "React.JS",
       modelPath: "/models/react_logo-transformed.glb",
-      scale: 1,
+      scale: 0.9,
       rotation: [0, 0, 0],
    },
    {
-      name: "Frontend Developer",
-      modelPath: "/models/python-transformed.glb",
-      scale: 0.8,
+      name: "TypeScript",
+      modelPath: "/models/ts-logo-transformed.glb",
+      scale: 40,
       rotation: [0, 0, 0],
       //typescript
    },
    {
-      name: "Frontend Developer",
-      modelPath: "/models/node-transformed.glb",
-      //nextjs
-      scale: 5,
-      rotation: [0, -Math.PI / 2, 0],
-   },
-   {
-      name: "Frontend Developer",
-      modelPath: "/models/three.js-transformed.glb",
-      scale: 0.05,
+      name: "Next.JS",
+      modelPath: "/models/nextjs-logo-transformed.glb",
+      scale: 3.5,
       rotation: [0, 0, 0],
-      //tailwind
+   },
+   // {
+   //    name: "Frontend Developer",
+   //    modelPath: "/models/node-transformed.glb",
+   //    scale: 5,
+   //    rotation: [0, -Math.PI / 2, 0],
+   // },
+   {
+      name: "TailwindCSS",
+      modelPath: "/models/tailwindcss-logo-transformed.glb",
+      scale: 53,
+      rotation: [0, 0, 0],
    },
    {
-      name: "Frontend Developer",
+      name: "Git",
       modelPath: "/models/git-svg-transformed.glb",
-      scale: 0.05,
+      scale: 0.045,
       rotation: [0, -Math.PI / 4, 0],
    },
 ];
 
 
-// const techStackIcons = [
-//    {
-//       name: "Frontend Developer",
-//       modelPath: "/models/react_logo-transformed.glb",
-//       scale: 1,
-//       rotation: [0, 0, 0],
-//    },
-//    {
-//       name: "Frontend Developer",
-//       modelPath: "/models/typescript-transformed.glb",
-//       scale: 0.8,
-//       rotation: [0, 0, 0],
-//    },
-//    {
-//       name: "Frontend Developer",
-//       modelPath: "/models/nextjs-transformed.glb",
-//       scale: 0.05,
-//       rotation: [0, 0, 0],
-//    },
-//    {
-//       name: "Frontend Developer",
-//       modelPath: "/models/tailwind-transformed.glb",
-//       scale: 0.05,
-//       rotation: [0, -Math.PI / 2, 0],
-//    },
-//    {
-//       name: "Frontend Developer",
-//       modelPath: "/models/git-svg-transformed.glb",
-//       scale: 0.05,
-//       rotation: [0, -Math.PI / 4, 0],
-//    },
-// ];
+
 
 const expCards = [
    {
